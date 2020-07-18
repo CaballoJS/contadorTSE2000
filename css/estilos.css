@@ -314,3 +314,31 @@ footer .redes-sociales .email:hover {
 footer .redes-sociales .whatsapp:hover {
     background: #25d366;
 }
+
+/*------------------- Media Queris ----------*/
+
+@media screen and (max-width:800px) {
+    header .menu {
+        text-align: center;
+    }
+    .main .trabajos .contenedor .trabajo {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header .contenedor-texto {
+        margin: 100px 0px;
+    }
+    header .contenedor-texto .texto .nombre {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    header .contenedor-texto .texto .profesion {
+        font-size: 18px;
+    }
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        padding: 20px 0px;
+    }
+}
