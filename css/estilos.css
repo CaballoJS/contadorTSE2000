@@ -343,3 +343,22 @@ footer .redes-sociales .whatsapp:hover {
         padding: 20px 0px;
     }
 }
+
+@media screen and (max-width:399px) {
+    header .menu a {
+        margin: 0px 10px;
+    }
+    header .contenedor-texto .texto {
+        padding: 10px 30px;
+    }
+    .main .acerca-de .contenedor .texto p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    header .menu a {
+        margin: 0px 4px;
+        font-size: 14px;
+    }
+}
