@@ -1,0 +1,11 @@
+Hola Como estas Mr.Robot
+Esta Sera una Rama De prueba donde podemos experimentar
+es como una realidad alterna donde podemos escribir de la manera mas
+adecuada por lo que si me propongo a alterar cosas en esta
+realidad no pasara nada en la rama master ya que es muy diferente no tienen
+cosas en comun apartir de este punto
+
+Esta parte se esta creando en la practica y ademas es una rama
+alterna al proyecto original esta siendo apartir de ahora una
+rama completamente diferente a la original podemos crear y modificar 
+sin ningun problema
