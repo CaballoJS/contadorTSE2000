@@ -45,9 +45,10 @@
                         Acerca De
                     </h3>
                     <p>
-                        Contador con mas de 20 años en experiencia, conocimientos en
-                        <span class="bold">CONTPAQ, ASPEL y SAE</span><br>.Declaracion de Impuestos y Facturacion Electronica 3.3
+                        Contador con mas de 20 años de experiencia, conocimientos en
+                        <span class="bold">Control2000</span>, <span class="bold">Contpaq</span> y <span class="bold">Aspel</span><br>Declaracion de Impuestos y Facturacion Electronica 3.3
                     </p>
+
                 </div>
             </div>
         </section>
@@ -57,11 +58,11 @@
                 <div class="contenedor-trabajos">
                     <div class="trabajo">
                         <div class="thumb">
-                            <img src="img/foto1.jpg" alt="neurona">
+                            <img src="img/foto6.jpg" alt="neurona">
                         </div>
                         <div class="descripcion">
                             <p class="nombre">
-                                Declaracion-Mensual
+                                Declaraciones Mensuales
                             </p>
                             <p class="categoria">
                                 Control2000
@@ -74,7 +75,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">
-                                Declaracion-Anual
+                                Declaraciones Anuales
                             </p>
                             <p class="categoria">
                                 Control2000
@@ -87,7 +88,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">
-                                Declaracion-Anual
+                                Trámites y Servicios
                             </p>
                             <p class="categoria">
                                 Control2000
@@ -96,11 +97,11 @@
                     </div>
                     <div class="trabajo">
                         <div class="thumb">
-                            <img src="img/foto4.jpg" alt="neurona">
+                            <img src="img/foto6.jpg" alt="neurona">
                         </div>
                         <div class="descripcion">
                             <p class="nombre">
-                                Declaracion-Anual
+                                Facturacion Electrónica
                             </p>
                             <p class="categoria">
                                 Control2000
@@ -174,7 +175,7 @@
                     <input type="text" placeholder="Nombre" id="persona">
                     <input type="email" placeholder="correo" id="correo">
                     <textarea cols="30" rows="10" placeholder="Mensaje" id="mensaje"></textarea>
-                    <input type="submit" class="boton" value="Enviar">
+                    <input type="submit" class="boton" value="Enviar" onclick="limpiarFormulario()">
                     <input type="hidden" name="fvv" value="1">
                     <input type="hidden" name="draftResponse" value="[null,null,&quot;-7830820211022929674&quot;]">
                     <input type="hidden" name="pageHistory" value="0,1">
@@ -198,7 +199,6 @@
                 (event) => {
                     var inputText = event.path[0].value;
                     document.querySelector('#persona').innerHTML = inputText;
-                    // console.log(persona.setAttribute('value', inputText));
                     var nombres = document.querySelector(".nombres");
                     nombres.setAttribute('value', inputText);
                 });
@@ -208,7 +208,6 @@
                 (event) => {
                     var correos = event.path[0].value;
                     document.querySelector('#correo').innerHTML = correos;
-                    // console.log(correo.setAttribute('value', correos));
                     var emails = document.querySelector('.correos');
                     emails.setAttribute('value', correos)
                 });
@@ -217,10 +216,13 @@
                 (event) => {
                     var message = event.path[0].value;
                     document.querySelector('.com').innerHTML = message;
-                    // mensaje.setAttribute("placeholder", message);
                     var com = document.querySelector('.com');
                     com.setAttribute('value', message)
                 });
+
+            function limpiarFormulario() {
+                document.querySelector(".formulario").reset();
+            }
         </script>
 
 </body>
