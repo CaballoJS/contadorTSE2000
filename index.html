@@ -257,9 +257,9 @@
                     <input type="hidden" name="entry.241616171" value=" " class="nombres">
                     <input type="hidden" name="entry.33237640" value=" " class="correos">
                     <input type="hidden" name="entry.614380750" value=" " class="com" placeholder="">
-                    <input type="text" placeholder="Nombre">
-                    <input type="email" placeholder="Correo">
-                    <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="text" placeholder="Nombre" id="persona">
+                    <input type="email" placeholder="Correo" id="correo">
+                    <textarea cols="30" rows="10" placeholder="Mensaje" id="mensaje"></textarea>
                     <input type="submit" class="boton" value="Enviar" onclick="limpiarFormulario()">
                     <input type="hidden" name="fvv" value="1">
                     <input type="hidden" name="draftResponse" value="[null,null,&quot;-7830820211022929674&quot;]">
@@ -275,41 +275,7 @@
                 <a href="https://wa.link/4pmznj" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
             </div>
         </section>
-        <script>
-            var persona = document.getElementById("persona");
-            var correo = document.getElementById("correo");
-            var mensaje = document.getElementById("mensaje");
-
-            var usuario = persona.addEventListener('keyup',
-                (event) => {
-                    var inputText = event.path[0].value;
-                    document.querySelector('#persona').innerHTML = inputText;
-                    var nombres = document.querySelector(".nombres");
-                    nombres.setAttribute('value', inputText);
-                });
-
-
-            var email = correo.addEventListener('keyup',
-                (event) => {
-                    var correos = event.path[0].value;
-                    document.querySelector('#correo').innerHTML = correos;
-                    var emails = document.querySelector('.correos');
-                    emails.setAttribute('value', correos)
-                });
-
-            var msj = mensaje.addEventListener('keyup',
-                (event) => {
-                    var message = event.path[0].value;
-                    document.querySelector('.com').innerHTML = message;
-                    var com = document.querySelector('.com');
-                    com.setAttribute('value', message)
-                });
-
-            function limpiarFormulario() {
-                document.querySelector(".formulario").reset();
-            }
-        </script>
-
+        <script src="js/formulario.js"></script>
 </body>
 
 </html>
