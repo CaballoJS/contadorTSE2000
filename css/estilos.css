@@ -22,8 +22,10 @@ body {
 header {
     background: url('../img/Fondo-min.jpg') #246990;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
     max-height: 600px;
+    /* background-size: cover; */
+    background-attachment: fixed;
 }
 
 header .menu {
