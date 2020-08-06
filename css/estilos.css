@@ -299,11 +299,11 @@ footer .redes-sociales a {
     margin: 0 20px;
 }
 
-footer .redes-sociales .email a:hover {
+footer .redes-sociales .contenedor .email a:hover {
     background: #dd4b39;
 }
 
-footer .redes-sociales .whatsapp a:hover {
+footer .redes-sociales .contenedor .whatsapp a:hover {
     background: #25d366;
 }
 
