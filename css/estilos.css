@@ -20,7 +20,7 @@ body {
 /* ----- -------------------- HEADER- ------------------------*/
 
 header {
-    background: url('../img/Fondo-min.jpg') #49a3d6;
+    background: url('../img/Fondo-min.jpg') #246990;
     background-repeat: no-repeat;
     background-position: center;
     max-height: 600px;
@@ -174,6 +174,10 @@ header .contenedor-texto .texto .profesion {
     -o-border-radius: 5px;
 }
 
+.main .trabajos .contenedor-trabajos .trabajo .thumb img:hover {
+    opacity: .5;
+}
+
 .main .trabajos .contenedor-trabajos .trabajo .descripcion {
     text-align: center;
 }
@@ -294,19 +298,6 @@ footer .redes-sociales a {
     /* background: #ccc; */
     margin: 0 20px;
 }
-
-
-/* footer .redes-sociales .twitter:hover {
-    background: #1da1f2;
-}
-
-footer .redes-sociales .facebook:hover {
-    background: #3b5998;
-}
-
-footer .redes-sociales .instagram:hover {
-    background: #e1306c;
-} */
 
 footer .redes-sociales .email:hover {
     background: #dd4b39;
