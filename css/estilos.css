@@ -128,7 +128,8 @@ header .contenedor-texto .texto .profesion {
 }
 
 .main .acerca-de .texto .bold {
-    color: #3895ea;
+    color: #0053a1;
+    /* color: #462e0f; */
     text-decoration: underline;
 }
 
@@ -187,13 +188,15 @@ header .contenedor-texto .texto .profesion {
 
 .main .trabajos .contenedor-trabajos .trabajo .nombre {
     font-weight: 700;
-    color: #3895ea;
+    color: #123966;
+    /* posible color #123966 */
     margin-bottom: 10px;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .categoria {
     font-size: 14px;
-    color: #636363;
+    font-weight: 700;
+    color: #474545;
 }
 
 
@@ -208,8 +211,9 @@ footer .contacto .contenedor .titulo {
     font-size: 34px;
     line-height: 34px;
     margin-bottom: 40px;
-    font-weight: 300;
-    color: #3895ea;
+    font-weight: 400;
+    /* color: #3895ea; */
+    color: #122438;
     text-align: center;
 }
 
