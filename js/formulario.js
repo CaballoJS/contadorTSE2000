@@ -1,11 +1,11 @@
-var persona = document.getElementById("persona");
-var correo = document.getElementById("correo");
-var mensaje = document.getElementById("mensaje");
+var persona = document.querySelector(".personas");
+var correo = document.querySelector(".correo");
+var mensaje = document.querySelector(".mensaje");
 
 var usuario = persona.addEventListener('keyup',
     (event) => {
         var inputText = event.path[0].value;
-        document.querySelector('#persona').innerHTML = inputText;
+        // document.querySelector('.personas').innerHTML = inputText;
         var nombres = document.querySelector(".nombres");
         nombres.setAttribute('value', inputText);
     });
@@ -14,7 +14,7 @@ var usuario = persona.addEventListener('keyup',
 var email = correo.addEventListener('keyup',
     (event) => {
         var correos = event.path[0].value;
-        document.querySelector('#correo').innerHTML = correos;
+        // document.querySelector('#correo').innerHTML = correos;
         var emails = document.querySelector('.correos');
         emails.setAttribute('value', correos)
     });
@@ -22,7 +22,7 @@ var email = correo.addEventListener('keyup',
 var msj = mensaje.addEventListener('keyup',
     (event) => {
         var message = event.path[0].value;
-        document.querySelector('.com').innerHTML = message;
+        // document.querySelector('.com').innerHTML = message;
         var com = document.querySelector('.com');
         com.setAttribute('value', message)
     });
