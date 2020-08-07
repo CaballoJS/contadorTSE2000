@@ -11,7 +11,6 @@ body {
 .contenedor {
     width: 90%;
     max-width: 1000px;
-    /* background: #ccc; */
     margin: auto;
     overflow: hidden;
 }
@@ -82,6 +81,7 @@ header .contenedor-texto .texto .nombre {
 header .contenedor-texto .texto .profesion {
     font-size: 25px;
     line-height: 25px;
+    font-weight: 400;
 }
 
 
@@ -204,7 +204,6 @@ header .contenedor-texto .texto .profesion {
 
 footer .contacto {
     padding: 60px 0;
-    background: #ccc;
 }
 
 footer .contacto .contenedor .titulo {
@@ -234,7 +233,7 @@ footer .contacto .contenedor .formulario textarea {
     -o-border-radius: 5px;
     padding: 15px 20px;
     font-size: 20px;
-    color: #a4a4a4;
+    color: #424242;
 }
 
 footer .contacto .contenedor .formulario input[type="text"]:focus,
@@ -265,6 +264,7 @@ footer .contacto .contenedor .formulario .boton {
     outline: none;
     background: #3895ea;
     color: #fff;
+    font-weight: bolder;
     border: none;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -302,7 +302,6 @@ footer .redes-sociales a {
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     font-size: 30px;
-    /* background: #ccc; */
     margin: 0 20px;
 }
 
