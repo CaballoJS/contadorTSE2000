@@ -223,6 +223,12 @@ footer .contacto .contenedor .formulario {
     justify-content: space-between;
 }
 
+footer .contacto .contenedor .formulario label {
+    position: absolute;
+    z-index: 20;
+    display: none;
+}
+
 footer .contacto .contenedor .formulario input[type="text"],
 footer .contacto .contenedor .formulario input[type="email"],
 footer .contacto .contenedor .formulario textarea {

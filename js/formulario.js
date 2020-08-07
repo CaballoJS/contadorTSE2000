@@ -1,6 +1,6 @@
-var persona = document.querySelector(".personas");
-var correo = document.querySelector(".correo");
-var mensaje = document.querySelector(".mensaje");
+var persona = document.querySelector("#personas");
+var correo = document.querySelector("#correo");
+var mensaje = document.querySelector("#mensaje");
 
 var usuario = persona.addEventListener('keyup',
     (event) => {
