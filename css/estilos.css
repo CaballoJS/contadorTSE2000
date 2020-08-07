@@ -122,8 +122,9 @@ header .contenedor-texto .texto .profesion {
     font-size: 34px;
     line-height: 34px;
     margin-bottom: 40px;
-    font-weight: 500;
-    color: #dd820d;
+    /* font-weight: 500; */
+    font-weight: 800;
+    color: #865914;
     text-align: center;
 }
 
@@ -262,7 +263,7 @@ footer .contacto .contenedor .formulario textarea {
 footer .contacto .contenedor .formulario .boton {
     margin: auto;
     outline: none;
-    background: #3895ea;
+    background: #073766;
     color: #fff;
     font-weight: bolder;
     border: none;
