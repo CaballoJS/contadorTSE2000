@@ -230,7 +230,7 @@ footer .contacto .contenedor .formulario label[for="personas"] {
     left: 0%;
     font-size: 13px;
     z-index: 2;
-    color: rgb(173, 169, 169);
+    color: black
 }
 
 footer .contacto .contenedor .formulario label[for="correo"] {
@@ -239,7 +239,7 @@ footer .contacto .contenedor .formulario label[for="correo"] {
     left: 52%;
     font-size: 13px;
     z-index: 2;
-    color: rgb(173, 169, 169);
+    color: black
 }
 
 footer .contacto .contenedor .formulario label[for="mensaje"] {
@@ -248,7 +248,7 @@ footer .contacto .contenedor .formulario label[for="mensaje"] {
     left: 0%;
     font-size: 13px;
     z-index: 2;
-    color: rgb(173, 169, 169);
+    color: black
 }
 
 footer .contacto .contenedor .formulario input[type="text"],
