@@ -201,10 +201,37 @@ header .contenedor-texto .texto .profesion {
 }
 
 
+/*--------------------Novedades......................*/
+
+.novedades .acerca-de {
+    text-align: center;
+}
+
+.novedades .acerca-de .texto {
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 60px auto;
+}
+
+.novedades .acerca-de .texto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    /* font-weight: 500; */
+    font-weight: 800;
+    color: #865914;
+    text-align: center;
+}
+
+
 /*----------------FOOTER--------------------*/
 
 footer .contacto {
     padding: 60px 0;
+    background-color: #f2f2f2;
 }
 
 footer .contacto .contenedor .titulo {
