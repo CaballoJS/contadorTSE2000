@@ -208,7 +208,7 @@ header .contenedor-texto .texto .profesion {
     background-color: white;
 }
 
-.novedades .texto {
+.novedades .contenedor .texto {
     color: #5a5a5a;
     font-weight: 600;
     font-size: 1em;
@@ -217,7 +217,7 @@ header .contenedor-texto .texto .profesion {
     margin: 60px auto;
 }
 
-.novedades .texto .titulo {
+.novedades .contenedor .texto .titulo {
     font-size: 34px;
     line-height: 34px;
     margin-bottom: 40px;
