@@ -203,12 +203,6 @@ header .contenedor-texto .texto .profesion {
 
 /*--------------------Novedades......................*/
 
-.novedades {
-    background-color: rgb(136, 128, 128);
-}
-
-
-/*
 .novedades .acerca-de {
     text-align: center;
 }
@@ -229,7 +223,7 @@ header .contenedor-texto .texto .profesion {
     font-weight: 800;
     color: #865914;
     text-align: center;
-} */
+}
 
 
 /*----------------FOOTER--------------------*/
