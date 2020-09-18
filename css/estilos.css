@@ -203,7 +203,7 @@ header .contenedor-texto .texto .profesion {
 
 /*--------------------Novedades......................*/
 
-.novedades {
+section>.novedades {
     text-align: center;
     background-color: white;
 }
