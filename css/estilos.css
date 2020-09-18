@@ -203,6 +203,10 @@ header .contenedor-texto .texto .profesion {
 
 /*--------------------Novedades......................*/
 
+.novedades {
+    background-color: #fff;
+}
+
 .novedades .acerca-de {
     text-align: center;
 }
