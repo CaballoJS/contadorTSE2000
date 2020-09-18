@@ -1,0 +1,10 @@
+@mixin colores($fondo, $articulo) {
+    body {
+        background-color: $fondo;
+    }
+    .articulo {
+        background-color: $articulo;
+    }
+}
+
+@include colores(#ff8000, #ccc);

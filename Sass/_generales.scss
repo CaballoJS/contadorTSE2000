@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 700px;
+    margin: 20px;
+}
+
+header,
+.main,
+aside,
+footer {
+    padding: 20px;
+}
