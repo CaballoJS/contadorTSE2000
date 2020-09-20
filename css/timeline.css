@@ -32,7 +32,7 @@ section {
     height: 100vh;
     font-size: 40px;
     font-weight: 100;
-    background-color: #22A7F0;
+    background-color: #22a8f036;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,19 +51,11 @@ section:nth-child(3) {
 }
 
 section:nth-child(4) {
-    background: #F9690E;
-}
-
-section:nth-child(5) {
-    background: #9B59B6;
-}
-
-section:nth-child(6) {
     background: #03C9A9;
 }
 
-section:nth-child(7) {
-    background: #ffcc00;
+section:nth-child(5) {
+    background: #F9690E;
 }
 
 .nav__wrapper {
@@ -77,6 +69,7 @@ section:nth-child(7) {
 
 .nav {
     margin: 0 0 100px 30px;
+    list-style-type: none;
 }
 
 .nav__counter {
