@@ -1,3 +1,29 @@
+body {
+    /* position: relative; */
+}
+
+.menu {
+    z-index: 100;
+    position: fixed;
+    margin: 40px 0px;
+    left: 50px;
+    background-attachment: fixed;
+}
+
+.menu a {
+    margin: 0px 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
 .wrapper {
     min-height: 100vh;
     font-family: "Roboto Slab", serif;
@@ -71,6 +97,10 @@ section:nth-child(7) {
     overflow: hidden;
     opacity: 0;
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -webkit-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -moz-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -ms-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -o-transition: height 0.3s ease-out, opacity 0.2s ease-out;
 }
 
 .nav__body {
