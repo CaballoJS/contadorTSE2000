@@ -1,19 +1,15 @@
-* {
-    box-sizing: border-box;
-}
-
 .menu {
     z-index: 100;
     position: fixed;
     margin: 40px 0px;
-    right: 50px;
+    /* left: 50px; */
+    left: 85%;
     background-attachment: fixed;
 }
 
 .menu a {
     margin: 0px 20px;
     color: #fff;
-    color: black;
     padding-bottom: 9px;
     display: inline-block;
     text-decoration: none;
@@ -37,9 +33,8 @@ section {
     height: 100vh;
     font-size: 40px;
     font-weight: 100;
-    /* background-color: #22a8f036; */
+    background-color: #22a8f036;
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -65,21 +60,19 @@ section:nth-child(5) {
 }
 
 .nav__wrapper {
-    /* margin-top: 40%;  */
     position: fixed;
-    height: 100vh;
+    height: 100%;
+    /* padding: 10px; */
     padding: 30px;
-    /* padding-top: 130vh; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
 }
 
 .nav {
-    /* margin: 100 0 490% 3px; */
-    margin: 0 0 -2% 0px;
+    /* margin: 0 0 100px 30px; */
+    margin: 0 0 -170px -16px;
     list-style-type: none;
-    box-sizing: border-box;
 }
 
 .nav__counter {
@@ -100,34 +93,35 @@ section:nth-child(5) {
     overflow: hidden;
     opacity: 0;
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -webkit-transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -moz-transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -ms-transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -o-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
 }
 
 .nav__body {
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 100;
+    /* font-size: 18px; */
+    font-size: 20px;
     width: 300px;
     height: 0;
     overflow: hidden;
     opacity: 0;
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -webkit-transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -moz-transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -ms-transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -o-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
 }
 
 .nav li {
     position: relative;
     transition: all 0.3s ease-out;
     margin-bottom: 1em;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
 }
 
 .nav li:after {
@@ -147,10 +141,10 @@ section:nth-child(5) {
     padding: 0;
     color: #fff;
     transition: all 0.15s ease-out;
-    -webkit-transition: all 0.15s ease-out;
-    -moz-transition: all 0.15s ease-out;
-    -ms-transition: all 0.15s ease-out;
-    -o-transition: all 0.15s ease-out;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
 }
 
 .nav li a:hover {
@@ -164,13 +158,20 @@ section:nth-child(5) {
 
 .nav li.active {
     pointer-events: none;
+    /* este padding hace que la linea blanca se separe o se hcerque */
     padding-left: 1em;
-    height: 100%;
+    /* estos valores ajustan el contenido del texco que aparecera */
+    height: 81vh;
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav li.active:after {
     width: 35px;
-    height: 400px;
+    height: 100%;
     top: 35px;
 }
 
@@ -185,27 +186,10 @@ section:nth-child(5) {
 }
 
 .nav li.active .nav__body {
-    height: 10vh;
+    height: auto;
     opacity: 1;
     overflow: visible;
-}
-
-a {
-    display: block;
     width: 100%;
-    height: 100%;
-}
-
-@media screen and (max-width:1800px) {
-    .nav__body {
-        box-sizing: border-box;
-        font-size: 16px;
-        width: 70%;
-        height: 0px;
-    }
-    .nav {
-        margin: 0 0 -2% 0px;
-    }
 }
 
 
@@ -214,61 +198,161 @@ a {
 
 /*------------------- Media Queris ----------*/
 
-
-/* @media screen and (max-width:1800px) {
-    .nav__body {
-        box-sizing: border-box;
-        font-size: 16px;
-        width: 70%;
-        height: 0px;
-    }
+@media screen and (max-width:1380px) {
     .nav {
-        margin: 0 0 -2% 0px;
+        margin: 0 0 -200px -16px;
+    }
+    .nav__body {
+        font-size: 25px;
+    }
+    .menu {
+        left: 80%;
+    }
+    .menu a {
+        font-size: 1.8em;
+    }
+    .nav__wrapper {
+        padding: 30px;
+    }
+    .nav li.active {
+        pointer-events: none;
+        /* este padding hace que la linea blanca se separe o se hcerque */
+        padding-left: 1em;
+        /* estos valores ajustan el contenido del texco que aparecera */
+        height: 81vh;
+        width: 60%;
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .nav {
-        margin: 0 0 -10% 0px;
-    }
-    .menu {
-        left: 25px;
+        margin: 0 0 -180px -16px;
     }
     .nav__body {
         font-size: 16px;
-        width: 100%;
-        height: 0px;
+    }
+    .menu {
+        left: 80%;
+    }
+    .menu a {
+        font-size: 1.2em;
+    }
+    .nav__wrapper {
+        padding: 30px;
+    }
+    .nav li.active {
+        pointer-events: none;
+        /* este padding hace que la linea blanca se separe o se hcerque */
+        padding-left: 1em;
+        /* estos valores ajustan el contenido del texco que aparecera */
+        height: 81vh;
+        width: 94%;
     }
 }
 
 @media screen and (max-width:500px) {
     .nav {
-        margin: 0 0 100px -10px;
+        margin: 0 0 -180px -16px;
+    }
+    .nav__body {
+        font-size: 15px;
     }
     .menu {
-        left: 20px;
+        left: 73%;
+    }
+    .menu a {
+        font-size: .9em;
+    }
+    .nav__wrapper {
+        padding: 13px;
+    }
+    .nav li.active {
+        pointer-events: none;
+        /* este padding hace que la linea blanca se separe o se hcerque */
+        padding-left: 1em;
+        /* estos valores ajustan el contenido del texco que aparecera */
+        height: 81vh;
+        width: 95%;
     }
 }
 
 @media screen and (max-width:399px) {
     .nav {
-        margin: 0 0 100px -20px;
+        margin: 0 0 -160px -16px;
+    }
+    .nav__body {
+        font-size: 14px;
     }
     .menu {
-        left: 10px;
+        left: 70%;
+    }
+    .menu a {
+        font-size: .8em;
+    }
+    .nav__wrapper {
+        padding: 10px;
+    }
+    .nav li.active {
+        pointer-events: none;
+        /* este padding hace que la linea blanca se separe o se hcerque */
+        padding-left: 0em;
+        /* estos valores ajustan el contenido del texco que aparecera */
+        height: 81vh;
+        width: 94%;
     }
 }
 
 @media screen and (max-width:330px) {
     .nav {
-        margin: 0 0 100px -30px;
-    }
-    .menu {
-        left: 10px;
+        margin: 0 0 -165px -19px;
     }
     .nav__body {
-        font-size: 16px;
-        width: 230px;
-        height: 0px;
+        font-size: 13.5px;
     }
-} */
+    .menu {
+        left: 70%;
+    }
+    .menu a {
+        font-size: .8em;
+    }
+    .nav__wrapper {
+        padding: 9px;
+    }
+    .nav li.active {
+        pointer-events: none;
+        /* este padding hace que la linea blanca se separe o se hcerque */
+        padding-left: 0em;
+        /* estos valores ajustan el contenido del texco que aparecera */
+        height: 81vh;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:310px) {
+    .nav {
+        margin: 0 0 -165px -39px;
+    }
+    .nav__body {
+        font-size: 13.5px;
+    }
+    .menu {
+        left: 60%;
+    }
+    .menu a {
+        font-size: .8em;
+    }
+    .nav__wrapper {
+        padding: 5px;
+    }
+    .nav li.active {
+        pointer-events: none;
+        /* este padding hace que la linea blanca se separe o se hcerque */
+        padding-left: 0em;
+        /* estos valores ajustan el contenido del texco que aparecera */
+        height: 81vh;
+        width: 92%;
+    }
+    .nav li.active:after {
+        width: 25px;
+    }
+}
