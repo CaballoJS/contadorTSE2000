@@ -203,13 +203,13 @@ a {
         margin: 0 0 -200px -16px;
     }
     .nav__body {
-        font-size: 25px;
+        font-size: 23px;
     }
     .menu {
         left: 80%;
     }
     .menu a {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
     .nav__wrapper {
         padding: 30px;
@@ -220,7 +220,7 @@ a {
         padding-left: 1em;
         /* estos valores ajustan el contenido del texco que aparecera */
         height: 81vh;
-        width: 60%;
+        width: 80%;
     }
 }
 
