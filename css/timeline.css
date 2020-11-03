@@ -93,35 +93,36 @@ section:nth-child(5) {
     overflow: hidden;
     opacity: 0;
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
+    -webkit-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -moz-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -ms-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -o-transition: height 0.3s ease-out, opacity 0.2s ease-out;
 }
 
 .nav__body {
     font-weight: 100;
-    /* font-size: 18px; */
+    /*font-size: 18px;
+    */
     font-size: 20px;
     width: 300px;
     height: 0;
     overflow: hidden;
     opacity: 0;
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
+    -webkit-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -moz-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -ms-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    -o-transition: height 0.3s ease-out, opacity 0.2s ease-out;
 }
 
 .nav li {
     position: relative;
     transition: all 0.3s ease-out;
     margin-bottom: 1em;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
 }
 
 .nav li:after {
@@ -141,10 +142,10 @@ section:nth-child(5) {
     padding: 0;
     color: #fff;
     transition: all 0.15s ease-out;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -ms-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
 }
 
 .nav li a:hover {
