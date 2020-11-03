@@ -7,4 +7,12 @@
     }
 }
 
+@mixin contorno($margen, $letras) {
+    .articulo {
+        border: $margen solid 10px;
+        color: $letras;
+    }
+}
+
 @include colores(#ff8000, #ccc);
+@include contorno(black, yellow);

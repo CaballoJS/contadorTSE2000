@@ -6,4 +6,9 @@ body {
   background-color: #ccc;
 }
 
+.articulo {
+  border: black solid 10px;
+  color: yellow;
+}
+
 /*# sourceMappingURL=mixins.css.map */
