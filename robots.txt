@@ -1,0 +1,4 @@
+user-agent: *
+Disallow:
+Allow:
+sitemap: https://contadortse2000.tk/sitemap.xml
