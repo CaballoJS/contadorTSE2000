@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
-Allow:
-sitemap: https://contadortse2000.tk/sitemap.xml
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://contadortse2000.tk/sitemap.xml
