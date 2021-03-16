@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: contadortse2000.tk
+Token: f37b577c3d247e8d58304cb532aca24f5e495251a210f32ff4bed730dd5bdb81
